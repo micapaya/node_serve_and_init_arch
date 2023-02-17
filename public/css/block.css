@@ -1,0 +1,7 @@
+*{background-color: purple;}
+h1 {
+    color: white;
+    font-size: 12rem;
+    max-width: 100%;
+    display: block;
+}
