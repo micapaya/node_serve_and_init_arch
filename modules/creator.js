@@ -31,9 +31,6 @@ const htmlBaseCreator = function(filenameHTML,filenameCSS,filenameJS){
     fs.mkdir ('./public/js',(error)=>{
         console.log('create directory js in asset')
     })
-    fs.writeFile(`./public/css/${filenameCSS}.css`,'/* css here */',(err)=>{
-        console.log('css created')
-    })
     fs.writeFile(`./readme.txt`,'require nodeJS 14.13.1 \n require express \n to start project "node init" (create full directory and files) \n "node server" for starting , you must find static files in ./public directory',(err)=>{
         console.log('readme for documentation')
     })

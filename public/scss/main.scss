@@ -1,0 +1,10 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #06e511;
+
+body {
+  font: 100% $font-stack;
+  background: $primary-color;
+  cursor: pointer;
+  content: 'yolo';
+  
+}

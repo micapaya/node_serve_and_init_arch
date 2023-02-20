@@ -1,2 +1,8 @@
-/* css here */
+body {
+  font: 100% Helvetica, sans-serif;
+  background: #06e511;
+  cursor: pointer;
+  content: "yolo";
+}
 
+/*# sourceMappingURL=main.css.map */
